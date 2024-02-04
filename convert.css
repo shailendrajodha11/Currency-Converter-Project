@@ -1,0 +1,101 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #9873fe;
+  }
+
+  .container {
+    width: 25%;
+    margin-top: 20vh;
+    background-color: white;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 6px;
+  }
+  .contimg{
+    width: 13vw;
+    background: white;
+  }
+  .container h5{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-top: 1vh;
+    font-size: 1rem;
+  }
+
+  .input-box {
+    margin-top: 2vh;
+    width: 100%;
+  }
+  .input-box h6{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 0.8rem;
+    margin-bottom: 1vh;
+  }
+  .input-box input {
+    height: 1.8rem;
+    width: 100%;
+    border: 0px;
+    border-bottom: 2px solid black;
+  }
+
+  .flagContainer {
+    width: 100%;
+    margin-top: 2vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .from {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .from img {
+    width: 4vw;
+    margin-bottom: 1vh;
+  }
+  .from select{
+    width: 100%;
+    height: 5vh;
+    background-color: #9873fe;
+    border: 0px;
+    color: white;
+    border-radius: 2px;
+    padding: 5px;
+  }
+
+  
+  button {
+    width: 100%;
+    border-radius: 2px;
+    padding: 1.5vh;
+    margin-top: 3vh;
+    background-color: #9873fe;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+
+  .para {
+    background-color: #e5dbff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 2vh;
+    padding: 1.3vh;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2vh;
+  }

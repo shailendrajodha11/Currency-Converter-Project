@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Currency converter</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="convert.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <img
+        src="https://cdni.iconscout.com/illustration/premium/thumb/money-exchange-5379650-4494365.png"
+        alt=""
+        class="contimg"
+      />
+      <h5>Currency Converter</h5>
+
+      <div class="input-box">
+        <h6>Amount:</h6>
+        <input type="number" id="inp" placeholder="100" />
+      </div>
+
+      <div class="flagContainer">
+        <div class="from">
+          <img src="https://flagsapi.com/AE/flat/64.png" alt="" id="img1" />
+          <select name="country" id="countryFlag">
+            <!-- <option value="USD">USD</option>
+                <option value="IND">IND</option> -->
+          </select>
+        </div>
+
+        <i class="fa-solid fa-arrow-right-arrow-left"></i>
+
+        <div class="from">
+          <img src="https://flagsapi.com/AE/flat/64.png" alt="" id="img2" />
+          <select name="country" id="countryFlag2">
+            <!-- <option value="IND">IND</option>
+                <option value="USD">USD</option> -->
+          </select>
+        </div>
+      </div>
+
+      <button id="btn">CONVERT</button>
+      <div class="para" id="para1">1USD = 83 INR</div>
+    </div>
+
+    <script src="data.js"></script>
+    <script src="convert.js"></script>
+  </body>
+</html>
