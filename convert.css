@@ -7,18 +7,20 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #9873fe;
+    flex-direction: column;
+    background-image: url("https://wallpapercrafter.com/desktop6/1503967-abstract-backgrounds-blue-copy-space-no-people.jpg");
+    background-size: cover;
   }
-
+  
   .container {
-    width: 25%;
-    margin-top: 20vh;
+    width: 40%;
+    margin-top: 16.7vh;
     background-color: white;
     padding: 1.5rem;
     display: flex;
     flex-direction: column;
     align-items: center;
-    border-radius: 6px;
+    box-shadow: 2px 3px 11px 1px black;
   }
   .contimg{
     width: 13vw;
@@ -98,4 +100,11 @@
     padding: 1.3vh;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 2vh;
+  }
+
+  @media (max-width:425px) {
+    .container{
+      width: 80%;
+      /* height: 90vh; */
+    }
   }

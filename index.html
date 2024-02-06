@@ -57,3 +57,133 @@
     <script src="convert.js"></script>
   </body>
 </html>
+
+
+
+
+
+
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Currency Converter</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f4;
+    }
+    .container {
+        max-width: 400px;
+        margin: 50px auto;
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    h2 {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .input-group {
+        margin-bottom: 15px;
+    }
+    .input-group label {
+        display: block;
+        margin-bottom: 5px;
+    }
+    .input-group input[type="number"] {
+        width: 100%;
+        padding: 8px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+    .input-group select {
+        width: 100%;
+        padding: 8px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        background-color: #f9f9f9;
+    }
+    .btn {
+        display: block;
+        width: 100%;
+        padding: 10px;
+        background-color: #4CAF50;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    .result {
+        margin-top: 20px;
+        text-align: center;
+    }
+</style>
+</head>
+<body>
+
+<div class="container">
+    <h2>Currency Converter</h2>
+    <div class="input-group">
+        <label for="amount">Amount:</label>
+        <input type="number" id="amount" placeholder="Enter amount">
+    </div>
+    <div class="input-group">
+        <label for="from">From:</label>
+        <select id="from">
+            <option value="usd">USD</option>
+            <option value="eur">EUR</option>
+            <option value="gbp">GBP</option>
+        </select>
+    </div>
+    <div class="input-group">
+        <label for="to">To:</label>
+        <select id="to">
+            <option value="usd">USD</option>
+            <option value="eur">EUR</option>
+            <option value="gbp">GBP</option>
+        </select>
+    </div>
+    <button class="btn" onclick="convert()">Convert</button>
+    <div class="result" id="result"></div>
+</div>
+
+<script>
+    function convert() {
+        var amount = parseFloat(document.getElementById("amount").value);
+        var fromCurrency = document.getElementById("from").value;
+        var toCurrency = document.getElementById("to").value;
+        var conversionRate;
+
+        // Conversion rates for demonstration purposes only
+        if (fromCurrency === "usd" && toCurrency === "eur") {
+            conversionRate = 0.88; // 1 USD = 0.88 EUR
+        } else if (fromCurrency === "usd" && toCurrency === "gbp") {
+            conversionRate = 0.77; // 1 USD = 0.77 GBP
+        } else if (fromCurrency === "eur" && toCurrency === "usd") {
+            conversionRate = 1.14; // 1 EUR = 1.14 USD
+        } else if (fromCurrency === "eur" && toCurrency === "gbp") {
+            conversionRate = 0.88; // 1 EUR = 0.88 GBP
+        } else if (fromCurrency === "gbp" && toCurrency === "usd") {
+            conversionRate = 1.30; // 1 GBP = 1.30 USD
+        } else if (fromCurrency === "gbp" && toCurrency === "eur") {
+            conversionRate = 1.14; // 1 GBP = 1.14 EUR
+        } else {
+            alert("Invalid conversion.");
+            return;
+        }
+
+        var result = amount * conversionRate;
+        document.getElementById("result").innerHTML = amount + " " + fromCurrency.toUpperCase() + " = " + result.toFixed(2) + " " + toCurrency.toUpperCase();
+    }
+</script>
+
+</body>
+</html>
+ -->
