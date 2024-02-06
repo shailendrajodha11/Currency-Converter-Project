@@ -104,10 +104,10 @@
 
   @media (max-width:425px) {
     body{
-      background-size: cover;
+      background-size: auto;
       width: 100vw;
     }
     .container{
-      width: 80%;
+      width: 80vw;
     }
   }
